@@ -16,6 +16,9 @@ public class ContactSaleTest extends BaseTest {
         contactSalePage = solutionsPage.clickContactSales();
 
         contactSalePage.inputFullName(user.getFistName());
+        contactSalePage.inputFullName(user.getLastName());
+        contactSalePage.inputFullName(user.getEmail());
+        contactSalePage.inputFullName(user.getPhone());
 
 
 
